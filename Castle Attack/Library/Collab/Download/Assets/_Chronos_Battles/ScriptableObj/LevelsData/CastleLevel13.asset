@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03487b3e0bf094494ad99202d73637e0, type: 3}
+  m_Name: CastleLevel13
+  m_EditorClassIdentifier: 
+  levelNo: 13
+  CastleMachineryPrefabs:
+  - {fileID: 3216026078291699424, guid: 75089079a17c04b91b03db867eb06955, type: 3}
+  - {fileID: 3216026078291699424, guid: 75089079a17c04b91b03db867eb06955, type: 3}
+  - {fileID: 3216026078291699424, guid: 75089079a17c04b91b03db867eb06955, type: 3}
+  castleHP: 100
+  castleDamage: 60
+  castleReward: 0
+  goCastleAmmo: {fileID: 5446945535749315135, guid: 0bccae2406db048e3a74957089b76fbf,
+    type: 3}
+  era: 2
+  goEnemies:
+  - {fileID: 7912052400813544989, guid: d16e438eb8d7d48b08af9deed62bfa85, type: 3}
+  - {fileID: 4125491093870708118, guid: 0766e64dbf79d4f36a35f3be0276e3cb, type: 3}
+  - {fileID: 2233446889047566712, guid: 40d17db9921d943eaa8ca114a5662357, type: 3}
+  - {fileID: 5226385880309844774, guid: 2413db5856fb44468b1ab00b6e6973b6, type: 3}
+  weaponType: 12
+  fireClip: {fileID: 8300000, guid: 50bc7c62b7f0e42529352ef693b3f5bc, type: 3}
+  hitClip: {fileID: 8300000, guid: 769b46891721744c7a1d443149a8d9f2, type: 3}

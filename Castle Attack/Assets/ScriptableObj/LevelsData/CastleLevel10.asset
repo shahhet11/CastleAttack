@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03487b3e0bf094494ad99202d73637e0, type: 3}
+  m_Name: CastleLevel10
+  m_EditorClassIdentifier: 
+  levelNo: 10
+  spriteCastle: {fileID: 21300000, guid: a61d1a0ea5d174b33b5d56e460f7a3a0, type: 3}
+  spriteCastleMachinery: {fileID: 0}
+  castleMachineryPrefab: {fileID: 0}
+  castleHP: 100
+  castleDamage: 100
+  castleReward: 0
+  goCastleAmmo: {fileID: 0}
+  castleAnimator: {fileID: 0}
+  spriteCastleMachineryAnimator: {fileID: 0}
+  castleMachinery: 0
+  isLock: 0
+  era: 1
+  goCastle: {fileID: 1605616693706713856, guid: f73f418e8939243768b78d778cf20b8e,
+    type: 3}
+  goEnemies: []
+  weaponType: 0

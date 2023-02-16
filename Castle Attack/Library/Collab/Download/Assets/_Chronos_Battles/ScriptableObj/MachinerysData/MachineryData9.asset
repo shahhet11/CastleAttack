@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b7129a10a745c5af3b9722a6ca6e0, type: 3}
+  m_Name: MachineryData9
+  m_EditorClassIdentifier: 
+  machineryNo: 9
+  machineryName: TANK
+  iapCost: $3.99
+  igcCost: 0
+  hp: 400
+  ammo: 10
+  damage: 15
+  spriteMachinery: {fileID: 21300000, guid: f35ee8f6a5f564178b9379877ae9883f, type: 3}
+  machineryPrefab: {fileID: 5396758698711958028, guid: 259371f51f8514e9f93e1d5da96bfab3,
+    type: 3}
+  animatorMachinery: {fileID: 2455757245897336328, guid: 7bf344441157444b0a3fc06f7b41a873,
+    type: 3}
+  era: 1
+  goAmmo: {fileID: 7410819222956253003, guid: cc0ec07c9c3114fcda5e6efb62e60749, type: 3}
+  inAppId: com.machinery.tank
+  strongLevel: 9
+  ammoType: AMMOS
+  upgradationCoast: 5000
+  weaponType: 8
+  fireClip: {fileID: 8300000, guid: 5622c938a1311495e9ee9b6f63ee1aaa, type: 3}
+  hitClip: {fileID: 8300000, guid: b6d03c17ca62e488ca8cecee4ef40f21, type: 3}

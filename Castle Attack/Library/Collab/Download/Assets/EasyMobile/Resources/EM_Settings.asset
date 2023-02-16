@@ -1,0 +1,614 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4452e2410c04b34915077cbe0f3a4d, type: 3}
+  m_Name: EM_Settings
+  m_EditorClassIdentifier: 
+  mAdvertisingSettings:
+    mAutoInit: 1
+    mAutoLoadAdsMode: 1
+    mAdCheckingInterval: 10
+    mAdLoadingInterval: 20
+    mIosDefaultAdNetworks:
+      bannerAdNetwork: 0
+      interstitialAdNetwork: 0
+      rewardedAdNetwork: 0
+    mAndroidDefaultAdNetworks:
+      bannerAdNetwork: 2
+      interstitialAdNetwork: 5
+      rewardedAdNetwork: 5
+    mAdColony:
+      mEnable: 0
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mOrientation: 2
+      mEnableRewardedAdPrePopup: 0
+      mEnableRewardedAdPostPopup: 0
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+    mAdMob:
+      mEnable: 1
+      mTargetingSettings:
+        mTagForChildDirectedTreatment: 0
+        mExtraOptions:
+          keys: []
+          values: []
+      mEnableTestMode: 1
+      mUseAdaptiveBanner: 0
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: ca-app-pub-1735139870435418/5771965086
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mAppLovin:
+      mEnable: 0
+      mAgeRestrictMode: 0
+      mSDKKey: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mFBAudience:
+      mEnable: 0
+      mBannerAdSize: 0
+      mEnableTestMode: 0
+      mTestDevices: []
+      mDefaultBannerId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mChartboost:
+      mEnable: 1
+      mCustomInterstitialPlacements: []
+      mCustomRewardedPlacements: []
+    mFairBid:
+      mEnable: 0
+      mPublisherId: 
+      mShowTestSuite: 0
+      mDefaultBannerId: 
+      mDefaultInterstitialAdId: 
+      mDefaultRewardedAdId: 
+      mCustomBannerPlacements: []
+      mCustomInterstitialPlacements: []
+      mCustomRewardedPlacements: []
+    mIronSource:
+      mEnable: 0
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mUseAdvancedSetting: 0
+      mSegments:
+        age: 0
+        gender: 
+        level: 0
+        isPaying: 0
+        userCreationDate: 0
+        iapt: 0
+        segmentName: 
+        customParams:
+          keys: []
+          values: []
+    mMoPub:
+      mEnable: 0
+      mReportAppOpen: 0
+      mITuneAppID: 
+      mEnableLocationPassing: 0
+      mUseAdvancedSetting: 0
+      mAllowLegitimateInterest: 0
+      mLogLevel: 70
+      mMediatedNetworks: []
+      mAutoRequestConsent: 0
+      mForceGdprApplicable: 0
+      mDefaultBannerId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mTapjoy:
+      mEnable: 0
+      mAutoReconnect: 1
+      mAutoReconnectInterval: 10
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mUnityAds:
+      mEnable: 0
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: video
+        mAndroidId: video
+      mDefaultRewardedAdId:
+        mIosId: rewardedVideo
+        mAndroidId: rewardedVideo
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+      mEnableTestMode: 0
+    mVungleAds:
+      mEnable: 0
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mUseAdvancedSetting: 0
+      mAdvancedSettings:
+        adOrientation: 6
+        prematureAdClosePopup:
+          alertTitle: Alert!!!
+          alertText: You are about to close this ad. If this is a rewarded ad, you
+            might not receive the reward.
+          closeText: Close
+          continueText: Continue
+        enableAdSound: 1
+        minimumDiskSpaceForInitialization: 51000000
+        minimumDiskSpaceForAds: 50000000
+        disableHardwareId: 0
+  mGameServiceSettings:
+    mAutoInit: 1
+    mAutoInitAfterUserLogout: 0
+    mAutoInitDelay: 0
+    mAndroidMaxLoginRequests: 0
+    mGpgsDebugLogEnabled: 0
+    mGpgsPopupGravity: 0
+    mGpgsShouldRequestServerAuthCode: 0
+    mGpgsForceRefreshServerAuthCode: 0
+    mGpgsOauthScopes: []
+    mLeaderboards: []
+    mAchievements: []
+    mAndroidXmlResources: 
+    mEnableMultiplayer: 0
+    mEnableSavedGames: 0
+    mAutoConflictResolutionStrategy: 0
+    mGpgsDataSource: 0
+  mInAppPurchaseSettings:
+    mAutoInit: 1
+    mTargetAndroidStore: 0
+    mSimulateAppleAskToBuy: 1
+    mInterceptApplePromotionalPurchases: 1
+    mEnableAmazonSandboxTesting: 0
+    mValidateAppleReceipt: 0
+    mValidateGooglePlayReceipt: 0
+    mProducts:
+    - _name: Roman
+      _type: 1
+      _id: com.characater.spartan
+      _price: $0.99
+      _description: Character - Roman
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.spartan
+      _isEditingAdvanced: 1
+    - _name: Nolan Knight
+      _type: 1
+      _id: com.characater.knight
+      _price: $1.99
+      _description: Character - Nolan Knight
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.knight
+      _isEditingAdvanced: 1
+    - _name: Unit B - 12
+      _type: 1
+      _id: com.characater.soldier
+      _price: $0.99
+      _description: Character - Unit B - 12
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.soldier
+      _isEditingAdvanced: 1
+    - _name: Kana
+      _type: 1
+      _id: com.characater.spywoman
+      _price: $1.99
+      _description: Character - Kana
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.spywoman
+      _isEditingAdvanced: 1
+    - _name: Ash Stevens
+      _type: 1
+      _id: com.characater.captain
+      _price: $2.99
+      _description: Character - Ash Stevens
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.captain
+      _isEditingAdvanced: 1
+    - _name: MCGREGOR
+      _type: 1
+      _id: com.characater.arab
+      _price: $3.99
+      _description: Character - MCGREGOR
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.arab
+      _isEditingAdvanced: 1
+    - _name: Cyborg Sam
+      _type: 1
+      _id: com.characater.swat
+      _price: $0.99
+      _description: Character - Cyborg Sam
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.swat
+      _isEditingAdvanced: 1
+    - _name: Grease
+      _type: 1
+      _id: com.characater.oneeyed
+      _price: $1.99
+      _description: Character - Grease
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.oneeyed
+      _isEditingAdvanced: 1
+    - _name: Terry Tracer
+      _type: 1
+      _id: com.characater.golden
+      _price: $2.99
+      _description: Character - Terry Tracer
+      _storeSpecificIds:
+      - store: 0
+        id: com.characater.golden
+      _isEditingAdvanced: 1
+    - _name: Fireball Catapult
+      _type: 1
+      _id: com.machinery.cpfireball
+      _price: $1.99
+      _description: Machinery - Fireball Catapult
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.cpfireball
+      _isEditingAdvanced: 1
+    - _name: Arrow Catapult
+      _type: 1
+      _id: com.machinery.spearlauncher
+      _price: $2.99
+      _description: Machinery - Arrow Catapult
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.spearlauncher
+      _isEditingAdvanced: 1
+    - _name: Fire Arrow Catapult
+      _type: 1
+      _id: com.machinery.slfire
+      _price: $3.99
+      _description: Machinery - Fire Arrow Catapult
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.slfire
+      _isEditingAdvanced: 1
+    - _name: Canon
+      _type: 1
+      _id: com.machinery.cannon
+      _price: $4.99
+      _description: Machinery - Canon
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.cannon
+      _isEditingAdvanced: 1
+    - _name: Panhard Crabs
+      _type: 1
+      _id: com.machinery.panhardcrab
+      _price: $1.99
+      _description: Machinery - Panhard Crabs
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.panhardcrab
+      _isEditingAdvanced: 1
+    - _name: Rocket Launcher
+      _type: 1
+      _id: com.machinery.rocketlauncher
+      _price: $2.99
+      _description: Machinery - Rocket Launcher
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.rocketlauncher
+      _isEditingAdvanced: 1
+    - _name: Tank
+      _type: 1
+      _id: com.machinery.tank
+      _price: $3.99
+      _description: Machinery - Tank
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.tank
+      _isEditingAdvanced: 1
+    - _name: Drone
+      _type: 1
+      _id: com.machinery.drone
+      _price: $4.99
+      _description: Machinery - Drone
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.drone
+      _isEditingAdvanced: 1
+    - _name: Humanoid
+      _type: 1
+      _id: com.machinery.robot
+      _price: $1.99
+      _description: Machinery - Humanoid
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.robot
+      _isEditingAdvanced: 1
+    - _name: Helicopter
+      _type: 1
+      _id: com.machinery.helicopter
+      _price: $2.99
+      _description: Machinery - Helicopter
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.helicopter
+      _isEditingAdvanced: 1
+    - _name: Destroyer
+      _type: 1
+      _id: com.machinery.destroyer
+      _price: $3.99
+      _description: Machinery - Destroyer
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.destroyer
+      _isEditingAdvanced: 1
+    - _name: Spaceship
+      _type: 1
+      _id: com.machinery.spaceship
+      _price: $4.99
+      _description: Machinery - Spaceship
+      _storeSpecificIds:
+      - store: 0
+        id: com.machinery.spaceship
+      _isEditingAdvanced: 1
+    - _name: 50000 Coins Pack
+      _type: 0
+      _id: com.coins.50000
+      _price: $1.99
+      _description: 50000 Coins Pack
+      _storeSpecificIds:
+      - store: 0
+        id: com.coins.50000
+      _isEditingAdvanced: 1
+    - _name: Bonus Coins
+      _type: 0
+      _id: com.bonus.coins
+      _price: $0.99
+      _description: Bonus Coins
+      _storeSpecificIds:
+      - store: 0
+        id: com.bonus.coins
+      _isEditingAdvanced: 1
+    - _name: Bonus Time
+      _type: 0
+      _id: com.bonus.time
+      _price: $0.99
+      _description: Bonus Time
+      _storeSpecificIds:
+      - store: 0
+        id: com.bonus.time
+      _isEditingAdvanced: 1
+    - _name: Remove Ads
+      _type: 0
+      _id: com.chronosbattles.removeads
+      _price: $2.99
+      _description: Remove Ads
+      _storeSpecificIds:
+      - store: 0
+        id: com.chronosbattles.removeads
+      _isEditingAdvanced: 1
+  mNotificationSettings:
+    mAutoInit: 1
+    mAutoInitDelay: 0
+    mIosAuthOptions: 7
+    mPushNotificationService: 0
+    mOneSignalAppId: 
+    mFirebaseTopics: []
+    mCategoryGroups: []
+    mDefaultCategory:
+      id: notification.category.default
+      groupId: 
+      name: Default
+      description: 
+      importance: 0
+      enableBadge: 1
+      lights: 1
+      lightColor: {r: 1, g: 1, b: 1, a: 1}
+      vibration: 1
+      vibrationPattern: 
+      lockScreenVisibility: 2
+      sound: 1
+      soundName: 
+      actionButtons: []
+    mUserCategories: []
+    mAndroidPermissions:
+    - mElementName: uses-permission
+      mValue: android.permission.RECEIVE_BOOT_COMPLETED
+  mPrivacySettings:
+    mDefaultConsentDialog:
+      mContent: 
+      mTitle: Privacy Consent
+      mToggles: []
+      mActionButtons: []
+    mConsentDialogComposerSettings:
+      mToggleSelectedIndex: 0
+      mButtonSelectedIndex: 0
+      mEnableCopyPasteMode: 0
+  mRatingRequestSettings:
+    mDefaultRatingDialogContent:
+      mTitle: Rate $PRODUCT_NAME
+      mMessage: How would you rate $PRODUCT_NAME?
+      mLowRatingMessage: That's bad. Would you like to give us some feedback instead?
+      mHighRatingMessage: Awesome! Let's do it!
+      mPostponeButtonText: Not Now
+      mRefuseButtonText: Don't Ask Again
+      mRateButtonText: Rate Now!
+      mCancelButtonText: Cancel
+      mFeedbackButtonText: Send Feedback
+    mMinimumAcceptedStars: 4
+    mSupportEmail: 
+    mIosAppId: 
+    mAnnualCap: 12
+    mDelayAfterInstallation: 10
+    mCoolingOffPeriod: 10
+    mIgnoreContraintsInDevelopment: 0
+  mSharingSettings:
+    mAndroidPermissions:
+    - mElementName: uses-permission
+      mValue: android.permission.WRITE_EXTERNAL_STORAGE
+    mIOSInfoPlistItems:
+    - mKey: NSPhotoLibraryUsageDescription
+      mValue: '[Your usage description]'
+    - mKey: NSPhotoLibraryAddUsageDescription
+      mValue: '[Your usage description]'
+  mNativeApisSettings:
+    mIsMediaEnabled: 0
+    mMediaSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_EXTERNAL_STORAGE
+      - mElementName: uses-feature
+        mValue: android.hardware.camera
+      mIOSInfoPlistKeys:
+      - mKey: NSPhotoLibraryUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSPhotoLibraryAddUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSCameraUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSMicrophoneUsageDescription
+        mValue: '[Your usage description]'
+    mIsContactsEnabled: 0
+    mContactsSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_CONTACTS
+      - mElementName: uses-permission
+        mValue: android.permission.READ_CONTACTS
+      mIOSInfoPlistKeys:
+      - mKey: NSContactsUsageDescription
+        mValue: '[Your usage description]'
+  mRuntimeAutoInitialization: 1
+  mIsAdModuleEnable: 1
+  mIsIAPModuleEnable: 1
+  mIsGameServiceModuleEnable: 0
+  mIsNotificationModuleEnable: 0
+  mIsSharingModuleEnable: 0
+  mActiveModuleIndex: 3
+  mIsSelectingModule: 0

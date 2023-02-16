@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034d4b5e80adb4562ba46a70dce980ee, type: 3}
+  m_Name: CharacterData6
+  m_EditorClassIdentifier: 
+  characterNo: 6
+  characterName: KANA
+  iapCost: $1.99
+  igcCost: 11000
+  bonusRewards: 25
+  spriteCharacter: {fileID: 21300000, guid: 3f70e3ab2a7454a5686bb8652337f24f, type: 3}
+  characterPrefab: {fileID: 4505466568109288891, guid: 372e3d446c7c548d8bcbbb660c12209d,
+    type: 3}
+  inAppId: com.characater.spywoman
+  strongLevel: 8
+  era: 1
+  playerVoiceClip: {fileID: 8300000, guid: 9bdbf4d438b86439e955918964ca1a58, type: 3}
+  enemyVoiceClip: {fileID: 8300000, guid: f05ea85d1f5ba4e8c909d8ad746affbf, type: 3}
+  storeClip: {fileID: 8300000, guid: 7117ebec7568d4d6788bb37bb53fbcb5, type: 3}
+  hitCastelClip: {fileID: 8300000, guid: 6f7cc88b97d3c41d9b5724b269272344, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034d4b5e80adb4562ba46a70dce980ee, type: 3}
+  m_Name: CharacterData9
+  m_EditorClassIdentifier: 
+  characterNo: 9
+  characterName: M.A.R.S.S
+  iapCost: Free
+  igcCost: 0
+  bonusRewards: 40
+  spriteCharacter: {fileID: 21300000, guid: 13c26ee01a0964c739f3a9ba2abb7925, type: 3}
+  characterPrefab: {fileID: 9196669694279861937, guid: 05e0722dcbd0d41acb0f7af57dc2e2e7,
+    type: 3}
+  inAppId: 
+  strongLevel: 11
+  era: 2
+  playerVoiceClip: {fileID: 8300000, guid: ff7f1691bfbd545a18db0e1ff3660570, type: 3}
+  enemyVoiceClip: {fileID: 8300000, guid: 330a5571c87434ecabb551946cbdcd44, type: 3}
+  storeClip: {fileID: 8300000, guid: c045571f2c586498fa09d940b5c8c150, type: 3}
+  hitCastelClip: {fileID: 8300000, guid: e89ff7011f4f249f1a8db174eeb0b506, type: 3}

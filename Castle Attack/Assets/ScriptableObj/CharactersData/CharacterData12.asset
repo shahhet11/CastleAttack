@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034d4b5e80adb4562ba46a70dce980ee, type: 3}
+  m_Name: CharacterData12
+  m_EditorClassIdentifier: 
+  characterNo: 12
+  characterName: Golden Character
+  iapCost: $2.99
+  igcCost: 26000
+  bonusRewards: 55
+  spriteCharacter: {fileID: 21300000, guid: 8d37943be90294a15ab1ae404ed4140a, type: 3}
+  animatorCombat: {fileID: 0}
+  animatorGamePlay: {fileID: 0}
+  animatorStore: {fileID: 0}
+  era: 0
+  isLock: 0

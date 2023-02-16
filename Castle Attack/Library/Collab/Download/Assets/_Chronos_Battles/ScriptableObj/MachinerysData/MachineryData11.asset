@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b7129a10a745c5af3b9722a6ca6e0, type: 3}
+  m_Name: MachineryData11
+  m_EditorClassIdentifier: 
+  machineryNo: 11
+  machineryName: TWIN BARREL TANK
+  iapCost: Free
+  igcCost: 0
+  hp: 100
+  ammo: 10
+  damage: 15
+  spriteMachinery: {fileID: 21300000, guid: d89b969d0594c45758507f2c9c94990e, type: 3}
+  machineryPrefab: {fileID: 5013664739451170659, guid: b8157f9220eb84515bd1434358f5b72f,
+    type: 3}
+  animatorMachinery: {fileID: 2455757245897336328, guid: 7bf344441157444b0a3fc06f7b41a873,
+    type: 3}
+  era: 2
+  goAmmo: {fileID: 7846753657161086579, guid: 8b800e89b05754c19abdf26f8d005f74, type: 3}
+  inAppId: 
+  strongLevel: 11
+  ammoType: AMMOS
+  upgradationCoast: 6000
+  weaponType: 10
+  fireClip: {fileID: 8300000, guid: 1ef7022e6abd246f785c7d05118cebf8, type: 3}
+  hitClip: {fileID: 8300000, guid: 29a12a7716dd147088e64478eee636c9, type: 3}

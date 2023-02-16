@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b7129a10a745c5af3b9722a6ca6e0, type: 3}
+  m_Name: MachineryData5
+  m_EditorClassIdentifier: 
+  machineryNo: 5
+  machineryName: CANON
+  iapCost: $4.99
+  igcCost: 0
+  hp: 500
+  ammo: 10
+  damage: 15
+  spriteMachinery: {fileID: 21300000, guid: 18149705216bb49ceb8d4c14606bc91d, type: 3}
+  machineryPrefab: {fileID: 1225639395736964539, guid: 3a79f602a088249a28b803bcf3e98c8e,
+    type: 3}
+  animatorMachinery: {fileID: 2455757245897336328, guid: 7bf344441157444b0a3fc06f7b41a873,
+    type: 3}
+  era: 0
+  goAmmo: {fileID: 1162283035720878004, guid: 6ce45d8f70f344d8f899af2357874d16, type: 3}
+  inAppId: com.machinery.cannon
+  strongLevel: 5
+  ammoType: BALLS
+  upgradationCoast: 3000
+  weaponType: 4
+  fireClip: {fileID: 8300000, guid: b928b87e8bbca4fba8a40d4b483cf4b8, type: 3}
+  hitClip: {fileID: 8300000, guid: 4c55151dfe0bf416eb4447fc7b940356, type: 3}

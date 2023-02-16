@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{86F6058B-F1A8-C20C-2AA6-0EE4271BD97B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterAttack.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MachineryManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/level_button_new.cs" />
+      <File FileName="Assets/Scripts/CharacterAttack.cs" Line="45" Column="40" />
+      <File FileName="Assets/Scripts/EnemyAI.cs" />
+      <File FileName="Assets/Scripts/LevelManager.cs" />
+      <File FileName="Assets/Scripts/SwipeDetector.cs" />
+      <File FileName="Assets/Scripts/EnemyManager.cs" />
+      <File FileName="Assets/Scripts/CannonHitInfo.cs" />
+      <File FileName="Assets/Scripts/trajectoryScript.cs" />
+      <File FileName="Assets/Scripts/BetterJump.cs" />
+      <File FileName="Assets/Scripts/UIScript.cs" Line="30" Column="24" NotebookId="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/AngleMeasurement.cs" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c92be1dc-93ef-40ca-8103-cfe8c8835c87" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03487b3e0bf094494ad99202d73637e0, type: 3}
+  m_Name: CastleLevel3
+  m_EditorClassIdentifier: 
+  levelNo: 3
+  spriteCastle: {fileID: 21300000, guid: a61d1a0ea5d174b33b5d56e460f7a3a0, type: 3}
+  spriteCastleMachinery: {fileID: 0}
+  castleMachineryPrefab: {fileID: 132981499165593281, guid: f26089bf4729446fd9d6a1b5fbb1407a,
+    type: 3}
+  castleHP: 100
+  castleDamage: 60
+  castleReward: 0
+  goCastleAmmo: {fileID: 9180496586448847754, guid: fd9fa9c414bb6467ca1c89ce7b9bd171,
+    type: 3}
+  castleAnimator: {fileID: 0}
+  spriteCastleMachineryAnimator: {fileID: 0}
+  castleMachinery: 0
+  isLock: 0
+  era: 0
+  goCastle: {fileID: 1605616693706713856, guid: f73f418e8939243768b78d778cf20b8e,
+    type: 3}
+  goEnemies:
+  - {fileID: 5140830568412168457, guid: 69a7ed2cf8c98476a888b2cec3f5bdf1, type: 3}
+  - {fileID: 3118237454650302634, guid: 511dddff0d2eb43369b8d375a5ea314e, type: 3}
+  - {fileID: 4178631851317471271, guid: 80586ea0c531e45e699638eaeef923d9, type: 3}
+  - {fileID: 3535176092100303098, guid: 4017c3ae484574c2a911b0154b03f9e9, type: 3}
+  weaponType: 2

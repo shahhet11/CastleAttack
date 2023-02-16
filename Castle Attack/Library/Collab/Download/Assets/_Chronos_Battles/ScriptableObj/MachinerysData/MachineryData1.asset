@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b7129a10a745c5af3b9722a6ca6e0, type: 3}
+  m_Name: MachineryData1
+  m_EditorClassIdentifier: 
+  machineryNo: 1
+  machineryName: STONE CATAPULT
+  iapCost: Free
+  igcCost: 0
+  hp: 100
+  ammo: 10
+  damage: 15
+  spriteMachinery: {fileID: 21300000, guid: 73175ba1a56ae4d7999e9fe5210e9fea, type: 3}
+  machineryPrefab: {fileID: 5587577461820255503, guid: 18679a7c196df4b5d99464d08d8d6c14,
+    type: 3}
+  animatorMachinery: {fileID: 2455757245897336328, guid: 7bf344441157444b0a3fc06f7b41a873,
+    type: 3}
+  era: 0
+  goAmmo: {fileID: 1162283035720878004, guid: 2538d0efdabe54e2d93ba70b223b4db1, type: 3}
+  inAppId: 
+  strongLevel: 1
+  ammoType: STONES
+  upgradationCoast: 500
+  weaponType: 0
+  fireClip: {fileID: 8300000, guid: d7c1c8f29887f8e4997de395792ae9fa, type: 3}
+  hitClip: {fileID: 8300000, guid: 80b8e023440460046afdf0b05b2617c8, type: 3}
